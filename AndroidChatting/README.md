@@ -7,6 +7,7 @@ AndroidApp that can be use to chat.
 1.软件截图
 
 ![android](https://raw.githubusercontent.com/shibobo/AndroidAppCollection/master/AndroidChatting/src/main/res/drawable/show.png)
+
 2.软件截图
 
 ![android](https://raw.githubusercontent.com/shibobo/AndroidAppCollection/master/AndroidChatting/src/main/res/drawable/Screenshot_2016-09-21-21-50-57.png)
