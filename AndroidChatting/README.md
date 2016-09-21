@@ -1,2 +1,2 @@
 # AndroidAppCollection/AndroidChtting
-AndroidÁÄÌìapp
+AndroidApp that can be use to chat.
