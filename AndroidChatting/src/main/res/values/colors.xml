@@ -10,4 +10,5 @@
     <color name="lightMode">#ffeeee</color>
     <color name="darkMode">#263238</color>
     <color name="timebg">#ffffff</color>
+    <color name="splashmsg">#2c8307</color>
 </resources>
