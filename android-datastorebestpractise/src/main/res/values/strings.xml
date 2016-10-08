@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DataStoreBestPractise</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>
