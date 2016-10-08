@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.shibobo.datastoretest.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit"
+        android:hint="请输入要存储的数据"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:hint="收到的数据"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/savesharedpreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存SharedPreferences"/>
+
+
+    <Button
+        android:id="@+id/getsharedpreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取SharedPreferences"/>
+
+    <TextView
+        android:id="@+id/getsp"
+        android:hint="收到的sharedpreferences数据"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
