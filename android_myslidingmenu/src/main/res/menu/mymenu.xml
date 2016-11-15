@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="主页"/>
+        <item
+            android:id="@+id/nav_img"
+            android:icon="@mipmap/ic_launcher"
+            android:title="图库"/>
+        <item
+            android:id="@+id/nav_money"
+            android:icon="@mipmap/ic_launcher"
+            android:title="钱包"/>
+    </group>
+    <item android:title="小工具">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_launcher"
+                android:title="科学计算器"/>
+            <item
+                android:icon="@mipmap/ic_launcher"
+                android:title="天气预报"/>
+        </menu>
+    </item>
+</menu>
