@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">拼图游戏</string>
+    <string name="lookRecord">查看记录</string>
+    <string name="learnMore">了解更多</string>
+    <string name="textSteps">步数</string>
+    <string name="textTime">时间</string>
+    <string name="textOriginalImg">查看原图</string>
+    <string name="textReset">重置</string>
+    <string name="textReturn">返回</string>
+    <string name="textStop">退出游戏</string>
+</resources>
