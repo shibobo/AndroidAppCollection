@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="one_color">#96d4e9</color>
+    <color name="two_color">#FF37ACD2</color>
+    <color name="three_color">#FF2A7F9B</color>
+    <color name="four_color">#194c5c</color>
+    <color name="rank_color">#d0ff4081</color>
+
+    <color name="temperatureBackground">#a6ded4d9</color>
+    <color name="center_color">#a6c7c7c7</color>
+    <color name="center_pointer_color">#a6514f4f</color>
+</resources>

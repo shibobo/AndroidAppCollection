@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.shibobo.littletoys">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".XferModeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyCounterActivity"></activity>
+        <activity android:name=".ArcActivity"></activity>
+        <activity android:name=".TemperatureActivity"></activity>
+        <activity android:name=".PolygonesActivity"></activity>
+        <activity android:name=".LineChartActivity"></activity>
+        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".RoundProgressActivity"></activity>
+        <activity android:name=".VolumeActivity"></activity>
+        <activity android:name=".FingerMoveActivity"></activity>
+        <activity android:name=".AnimationActivity"></activity>
+        <activity android:name=".SpecialMenuActivity"></activity>
+    </application>
+
+</manifest>

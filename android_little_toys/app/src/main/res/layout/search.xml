@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ffffff"
+    android:layout_margin="10dp"
+    android:padding="2dp">
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/search"/>
+    <EditText
+        android:id="@+id/mEditText"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:hint="请输入内容进行搜索"
+        android:textSize="12dp"
+        android:maxLines="1"/>
+    <Button
+        android:id="@+id/mGo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/go"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/mClear"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/delete"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

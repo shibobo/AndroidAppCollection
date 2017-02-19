@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/alpha_an"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="透明度动画"/>
+    <Button
+        android:id="@+id/rotate_an"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="旋转动画"/>
+    <Button
+        android:id="@+id/translate_an"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="位移动画"/>
+    <Button
+        android:id="@+id/btn_object_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用属性动画"/>
+    <Button
+        android:id="@+id/my_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义动画"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/mysvg"/>
+</LinearLayout>

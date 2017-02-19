@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.shibobo.littletoys.RoundProgress
+        android:id="@+id/round"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:ringColor="#c4c4c4"
+        app:ringProgressColor="@color/colorAccent"
+        app:ringWidth="20dp"
+        app:textSize="40dp"
+        app:textColor="@color/four_color"
+        app:max="100"
+        app:progress="93"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="滑动调整大小"/>
+    <SeekBar
+        android:id="@+id/changeSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="600"
+        android:progress="30"/>
+    <Button
+        android:id="@+id/redraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态重绘"/>
+</LinearLayout>
